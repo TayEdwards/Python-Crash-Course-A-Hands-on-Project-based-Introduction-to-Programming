@@ -1,0 +1,27 @@
+places_to_vist = ['japan', 'united kingdom', 'canada', 'china', 'turkey']
+print(places_to_vist)
+sorted_list = sorted(places_to_vist)
+print('---------sorted---------')
+print(sorted_list)
+print('---------orignal--------')
+print(places_to_vist)
+print('---------reverse--------')
+sorted_relist = sorted(places_to_vist, reverse=True)
+print(sorted_relist)
+print('---------orignal--------')
+print(places_to_vist)
+print('-----listReverse--------')
+places_to_vist.reverse()
+print(places_to_vist)
+print('-----listReverseBack----')
+places_to_vist.reverse()
+print(places_to_vist)
+print('---------sort-----------')
+places_to_vist.sort()
+print(places_to_vist)
+print('---------sortReverse----')
+places_to_vist.sort(reverse=True)
+print(places_to_vist)
+
+
+
